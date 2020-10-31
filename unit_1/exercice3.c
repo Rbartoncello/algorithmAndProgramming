@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 
 int main(void){
     double x, u, o, z;
