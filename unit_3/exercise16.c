@@ -7,20 +7,17 @@
 
 int main(void){
     char str[MAX_STR];
-    size_t i=0, j=0;
+    size_t i;
 
     puts(MSG_WELCOME_USER);
     fgets(str, sizeof(str)+2, stdin);
 
-    while (str[j] == ' ')
+    for (i = 0 ; str[i] == '\0'; i++)
         {
-            j++;
-        }
-    while (str[i] !='\0')
-        {
-            str[i]=str[j];
-            i++;
-            j++;
+            if (str[i] == ' ')
+                {
+                    str[i] = '\0';
+                }
         }
 
     puts(str);
