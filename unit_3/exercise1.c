@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include<stdlib.h>
 
 #define MSG_USER_WELCOME "Ingrece una texto:"
 
