@@ -1,0 +1,6 @@
+/*
+
+    el nombre de arreglo puede ser considerado como un apuntador constantes. 
+    Los apuntadores pueden ser utilizados para hacer cualquier operaciion que involucre subindices de los arreglos.
+    
+*/
