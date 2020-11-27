@@ -25,10 +25,10 @@ int main(void){
     int a, b, c, d, e, f, g, h, i;
 
     a=matrix2[0][0], b=matrix2[0][1], 
-    c=matrix2[1][0], d=matrix2[1][1];
+    d=matrix2[1][0], e=matrix2[1][1];
 
     
-    det_2 = (a * d) - (b *c);
+    det_2 = (a * e) - (b *d);
 
 
     a=matrix3[0][0], b=matrix3[0][1], c=matrix3[0][2],

@@ -14,5 +14,3 @@
     meses 2 es una cadena de caracteres con 12 elementos tipo char
 
 */
-
-#include 
