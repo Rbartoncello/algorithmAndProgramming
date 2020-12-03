@@ -1,0 +1,8 @@
+Argc: 5
+argv[0] = ./exersice 
+argv[1] = -p 
+argv[2] = 10 
+argv[3] = -l 
+argv[4] = 5 
+position: 10
+ancho: 5
